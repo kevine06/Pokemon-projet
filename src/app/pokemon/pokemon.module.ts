@@ -33,6 +33,6 @@ const pokemonRoutes: Routes = [
     FormsModule,
     RouterModule.forChild(pokemonRoutes)
   ],
-  providers: [ PokemonService ]
+   providers: [PokemonService]
 })
 export class PokemonModule { }
